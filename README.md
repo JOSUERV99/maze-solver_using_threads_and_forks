@@ -1,11 +1,7 @@
-# Laberinto_Threads-Forks
-Este primer proyecto tiene como finalidad desarrollar una aplicación que simule un Laberinto. Cada laberinto que se ejecute tendrá 2 versiones. Una con hilos y otra con foks. En ambas se aplicará la misma lógica y al finalizar se evaluará cual de las 2 dio mejores resultados en cuanto a eficiencia.
+# maze-solver_using_threads_and_forks
+A maze solver that reads a maze from a text file, using a walker that finds the target using threads and forks to look in other directions (called process mirroring) with C on Linux.
 
-## Directorios
-En la carpeta Documentación se encuentran la documentación del programa y el archivo con las instrucciones de la tarea.
-
-En la carpeta maze-threads-forks se encuentra el código con la solución del programa dentro de la subcarpeta src, y los laberintos se encuentran en la subcarpeta maps dentro de la carpeta files.
-
+## project structure
 ```bash
 .
 ├── Documentación
@@ -53,13 +49,10 @@ En la carpeta maze-threads-forks se encuentra el código con la solución del pr
 └── README.md
 ```
 
-## Ejecución 
-Para ejecutar y compilar el programa es necesario estar bajo el ambiente de linux.
-También para mayor facilidad a la hora de compilar y ejecutar es necesario tener instalado make.
-
-Al tener make instalado, es necesario dirigirse la la carpeta src e ingresar el comando make.
-
-```bash
-cd maze-threads-forks/src/
+## execution
+You need to compile the program using a C compiler thats works on linux (gcc) and have already installed make (to work with Makefile's)
+``` bash
+cd maze-threads-forks/src
 make
 ```
+to create an executable program and that's it
