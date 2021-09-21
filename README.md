@@ -1,5 +1,5 @@
 # maze-solver_using_threads_and_forks
-A maze solver that reads a maze from a text file, using a walker that finds the target using threads and forks to look in other directions (called process mirroring) with C on Linux.
+A maze solver that reads a maze from a text file, using a walker that finds the target using threads and forks to look in other directions (called process mirroring) with C on Linux. As part of the course of 'Operating systems introduction', TEC (Costa Rica 2021)
 
 ## project structure
 ```bash
